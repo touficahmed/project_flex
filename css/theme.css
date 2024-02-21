@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.title h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    color: #BF9C56;
+    margin-bottom: 10px;
+}
+
+.title p {
+    font-size: 18;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex .column {
+    width: 25%;
+    padding: 15px;
+}
+
+.imagebox {
+
+    min-height: 350px;
+    padding: 20px;
+
+}
+
+.imagebox h2 {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.pic1 {
+    background-image: url(../images/dhaka.jpg)
+}
+
+.pic2 {
+    background-image: url(../images/rajshahi_city_230523_01.jpg);
+}
+
+.pic3 {
+    background-image: url(../images/khulna.jpg);
+}
+
+.pic4 {
+    background-image: url(../images/chattagram-port-bangladesh-15th-january-600nw-2393997075.jpg);
+}
+
+.pic5 {
+    background-image: url(../images/sylhet.jpg);
+}
+
+.pic6 {
+    background-image: url(../images/Barisal-Backwater-Tour.jpg)
+}
+
+.pic7 {
+    background-image: url(../images/rangpur.jpg);
+}
+
+.pic8 {
+    background-image: url(../images/mymensingh.jpg);
+}
+
+
+.controlsystem {
+    padding: 100px 0;
+}
+
+.col_1_3 {
+    width: 33.33%;
+    padding: 10px;
+}
+
+.col_2_3 {
+    width: 66.66%;
+    padding: 10px;
+    gap: 20px;
+}
+
+.col_2_2 {
+    width: 100%;
+}
+
+.col_1_2 {
+    width: calc(50% - 10px)
+}
+.card_style {
+    color: rgb(255, 255, 255);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 15px;
+    box-shadow: 0 0px 14px 0px rgba(15, 15, 15, 0.18);
+    background-blend-mode: multiply;
+    background-color: rgba(22, 22, 22, 0.63);
+
+}
+.face01 {
+    min-height: 500px;
+    height: 100%;
+    background-image: url(../images/collection-01.webp);
+    padding: 15px;
+}
+
+.face02 {
+    min-height: 250px;
+    padding: 15px;
+    background-image: url(../images/home-slider-01.jpg);
+}
+
+.face03 {
+    min-height: 250px;
+    padding: 15px;
+    background-image: url(../images/sonicpulse-flowharmony-goldtone-02.png);
+}
+
+.face04 {
+
+    min-height: 250px;
+    padding: 15px;
+    background-image: url(../images/sonicpulse-flowharmony-goldtone-05.png);
+}
+.gallary h2{
+    font-size: 24px;
+}
